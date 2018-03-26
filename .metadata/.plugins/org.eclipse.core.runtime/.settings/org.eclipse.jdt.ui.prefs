@@ -1,0 +1,30 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_favorite_static_members=org.junit.Assert.*;org.junit.Assume.*;org.junit.jupiter.api.Assertions.*;org.junit.jupiter.api.Assumptions.*;org.junit.jupiter.api.DynamicContainer.*;org.junit.jupiter.api.DynamicTest.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="com.dreamli.util.XMLParseUtil"><rhs name\="com.dreamli.util.XMLParseUtil"/></lhs><lhs name\="org.dom4j.io.SAXReader"><rhs name\="org.dom4j.io.SAXReader"/></lhs><lhs name\="com.dreamli.domain.User"><rhs name\="com.dreamli.domain.User"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.io.Writer"><rhs name\="java.io.FileWriter"/></lhs><lhs name\="org.xml.sax.ext.LexicalHandler"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.xml.sax.helpers.XMLFilterImpl"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.xml.sax.XMLFilter"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.xml.sax.XMLReader"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.xml.sax.EntityResolver"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.xml.sax.DTDHandler"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.xml.sax.ContentHandler"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.xml.sax.ErrorHandler"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="org.dom4j.io.XMLWriter"><rhs name\="org.dom4j.io.XMLWriter"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="org.dom4j.io.OutputFormat"/><rhs name\="javax.servlet.http.Cookie"/></lhs><lhs name\="org.dom4j.io.OutputFormat"><rhs name\="org.dom4j.io.OutputFormat"/></lhs><lhs name\="com.dreamli.dao.UserDao"><rhs name\="com.dreamli.dao.impl.UserDaoImpl"/></lhs><lhs name\="com.dreamli.service.UserService"><rhs name\="com.dreamli.serviceimpl.UserServiceImpl"/></lhs><lhs name\="javax.servlet.http.Cookie"><rhs name\="javax.servlet.http.Cookie"/></lhs><lhs name\="java.sql.Driver"><rhs name\="com.mysql.jdbc.Driver"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+hoverModifierMasks=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;0;org.eclipse.jdt.ui.ProblemHover;0;org.eclipse.jdt.ui.NLSStringHover;4259840;org.eclipse.jdt.ui.JavadocHover;4325376;org.eclipse.jdt.ui.AnnotationHover;0;org.eclipse.jdt.ui.JavaSourceHover;131072;
+hoverModifiers=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;\!0;org.eclipse.jdt.ui.ProblemHover;\!0;org.eclipse.jdt.ui.NLSStringHover;Command+Alt;org.eclipse.jdt.ui.JavadocHover;Command+Shift;org.eclipse.jdt.ui.AnnotationHover;\!0;org.eclipse.jdt.ui.JavaSourceHover;Shift;
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.ignorelowercasenames=true
+org.eclipse.jdt.ui.importorder=java;javax;org;com;
+org.eclipse.jdt.ui.ondemandthreshold=99
+org.eclipse.jdt.ui.overrideannotation=true
+org.eclipse.jdt.ui.staticondemandthreshold=99
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="constructorcomment_context" deleted\="false" description\="Comment for created constructors" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.constructorcomment" name\="constructorcomment">/** ${tags}\n * @When\:\n * @Author\: ${user}\n * @Date\: ${date} ${time}\n */</template><template autoinsert\="false" context\="typecomment_context" deleted\="false" description\="Comment for created types" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.typecomment" name\="typecomment">/**\n * @Description\: \n * @Warning\: \n * @Author\: ${user}\n * @Package\: ${project_name} - ${package_name}.${file_name}\n * @Date\: ${date} ${time}\n * @Version\: 1.0.0\n */</template><template autoinsert\="false" context\="methodcomment_context" deleted\="false" description\="Comment for non-overriding methods" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name\="methodcomment">/**\n * @Description\:   \n * @Warning\: \n * @Author\: ${user}\n * @Date\: ${date} ${time}\n * @Version\: 1.0.0\n * ${tags}\n */</template><template autoinsert\="false" context\="overridecomment_context" deleted\="false" description\="Comment for overriding methods" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name\="overridecomment">/* (non-Javadoc)\n * ${see_to_overridden}\n */</template></templates>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jdt.ui.visibility.order=B,V,R,D,
+outlinesortoption=T,SF,SI,SM,F,I,C,M,
+sourceHoverBackgroundColor=213,232,208
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
