@@ -1,2 +1,0 @@
-eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="request.getContextPath() + &quot;/regist.jsp&quot;"/>\n<expression enabled\="true" text\="request"/>\n<expression enabled\="true" text\="parameterMap"/>\n<expression enabled\="true" text\="request.getParameterMap()"/>\n</watchExpressions>\n
