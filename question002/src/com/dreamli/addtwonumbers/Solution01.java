@@ -57,6 +57,7 @@ public class Solution01 {
 		} while(null != (l2 = l2.next));
 		
 		int left, right, carry = 0; //  加数， 被加数， 进位数
+		
 		do {
 			left = num1.poll();
 			right = num2.poll();
