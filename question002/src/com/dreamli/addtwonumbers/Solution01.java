@@ -45,6 +45,7 @@ public class Solution01 {
 
 	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode result = null; // 结果链表
+		ListNode last = null;
 		Queue<Integer> num1 = new LinkedList<>();
 		Queue<Integer> num2 = new LinkedList<>();
 		
@@ -64,8 +65,13 @@ public class Solution01 {
 			int sum = left + right + carry;
 			ListNode sumNode = new ListNode(sum % 10); // 两个个位数相加可能大于10
 			carry = sum / 10; // 对高位的进位， 如果大于10就是1， 如果没大于10就是0
-			sumNode.next = result; //采用头插发构建结果链表
-			result = sumNode; //头指针前移
+			if(result == null) {
+				result = sumNode;
+				last =  sumNode;
+			} else {
+				last.next = sumNode;
+				last = sumNode;
+			}
 		} while(!num1.isEmpty() && !num2.isEmpty());//对两个数共有的位进行求和
 		
 		// 处理剩余位
@@ -86,20 +92,20 @@ public class Solution01 {
 					int sum = left + right;
 					ListNode sumNode = new ListNode(sum % 10);
 					carry = sum /10;
-					sumNode.next  = result;
-					result = sumNode;
+					last.next = sumNode;
+					last = sumNode;
 				} else { // 不存在进位，直接将剩余部分头插到结果集
 					ListNode  first = new ListNode(remainig.poll());
-					first.next = result;
-					result = first;
+					last.next = first;
+					last = first;
 				}
 			} while(!remainig.isEmpty());
 		}
 
 		if(carry != 0) { // 两个数字位数相同， 但是存在进位
 			ListNode  first = new ListNode(carry);
-			first.next = result;
-			result = first;
+			last.next = first;
+			last = first;
 		}
 		
 		return result;
