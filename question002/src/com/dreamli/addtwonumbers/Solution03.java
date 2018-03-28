@@ -1,7 +1,7 @@
 package com.dreamli.addtwonumbers;
 
 /**
- * @Description: 时间复杂度 O(n): 遍历最长的数字链, 对于位数不够的用 0 代替以在一次循环中处理求和
+ * @Description: 时间复杂度 O(max{m, n}): 遍历最长的数字链, 对于位数不够的用 0 代替以在一次循环中处理求和
  * @Warning:
  * @Author: dreamli
  * @Package: question002 - com.dreamli.addtwonumbers.Solution02.java
