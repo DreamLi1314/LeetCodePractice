@@ -7,7 +7,7 @@ package com.jackli.solution;
  * @Package: question005 - LongestPalindrome01
  * @Date: Nov 19, 2019 9:39:20 AM
  * @Version: 1.0.0
- * @TimeComplexity: Required[*] ---- Current[O(n^2)]
+ * @TimeComplexity: Required[*] ---- Current[O(n^3)]
  * @ExecuteResult: Success!
  * @Status: Time Limit Exceeded
  */
